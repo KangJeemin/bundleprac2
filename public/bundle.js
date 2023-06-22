@@ -1,0 +1,1 @@
+document.getElementById("root").style.backgroundColor="red",document.getElementById("root").style.color="blue";
