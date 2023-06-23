@@ -1,9 +1,10 @@
 const path = require('path')
 
 module.exports = {
-    entry: 
-       ["./test/index.js",
-      "./test/jimin.js"],
+    entry:{
+      index:'./test/index.jsx'
+    } ,
+       
     
     output: {
       path: path.join(__dirname, "public"),
